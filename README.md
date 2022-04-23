@@ -1,6 +1,6 @@
 
-<p align="center"><a href="https://www.sarthakj.me/WeddingEvite/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="https://saharshisha.netlify.app/assets/SI.pdf">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 14th Feb, 2021 <br> <a href="https://saharshisha.netlify.app/">Website</a></h1>
+<p align="center"><a href=""><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
+<h1 align="center"><a href="https://bhaskarandkhusboo.netlify.app/assets/SI.pdf">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 31 May, 2022 <br> <a href="https://bhaskarandkhusboo.netlify.app/">Website</a></h1>
 
 
 
@@ -8,34 +8,34 @@
 
 <details>
   <summary><strong>View Invitation</strong></summary>
-  <a href="https://saharshisha.netlify.app/"><img src="./assets/img/InviteMain.png" /></a>
+  <a href="https://bhaskarandkhusboo.netlify.app/"><img src="./assets/img/InviteMain.png" /></a>
 </details>
 
 With the divine grace of the almighty, inviting you and your family to Saharsh's wedding to be held on **14th February at [Mishtten Resort](https://g.page/Mishttenresort),  Jhalawar, Rajasthan from 3:00 PM** onwards.
 
-- [Download](https://saharshisha.netlify.app/assets/SI.pdf) the Invitation card
+- [Download](https://bhaskarandkhusboo.netlify.app/assets/SI.pdf) the Invitation card
 
 - Find [venue](https://g.page/Mishttenresort) on Google map
 
-- Visit the [website](https://saharshisha.netlify.app) for more details
+- Visit the [website](https://bhaskarandkhusboo.netlify.app) for more details
 
 
 ```js
 
-const newCouple = 'Saharsh & Isha';
+const newCouple = 'Bhaskar & Khusboo';
 
 // Feb 14, 2021
-const weddingDate = new Date(2021, 02, 14);
+const weddingDate = new Date(2022, 31, 28);
 
 // Wedding venue: https://g.page/Mishttenresort
-const weddingVenue = new Location('Mishtten Resort, Rajasthan');
+const weddingVenue = new Location('Hotel Shiv Palace, Kudra, Bihar');
 
 (function() {
     newCouple.willTieKnot(weddingDate);
 
     // your presence is requested
     (new Wedding()).acceptInvitation(
-        window.open('https://saharshisha.netlify.app/')
+        window.open('https://bhaskarandkhusboo.netlify.app/')
     );
 })();
 

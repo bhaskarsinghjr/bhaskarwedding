@@ -20,17 +20,17 @@
 
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
+    console.log('Shagai me zaroor aana');
 });
 
 function pauseAudio() { 
     document.getElementById("my_audio").pause();
-    console.log('Shaadi me pakka aana');
+    console.log('Shagai me pakka aana');
     event.stopPropagation();
 };
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 14, 2021 00:00:00").getTime();
+var countDownDate = new Date("May 31, 2021 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -53,7 +53,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Wedding Completed !!";
+        document.getElementById("time").innerHTML = "Engagement Completed !!";
         // document.getElementById("time").innerHTML = " See The best Captured Moments ";
         // document.getElementById("time").href = "https://photos.app.goo.gl/Wn9PRK7FMpxBKF5s6/";
         // document.getElementById("time").target = "_blank";

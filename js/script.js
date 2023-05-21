@@ -30,7 +30,7 @@ function pauseAudio() {
 };
 
 // Set the date we're counting down to
-var countDownDate = new Date("May 31, 2022 00:00:00").getTime();
+var countDownDate = new Date("June 13, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -92,11 +92,4 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 31st May, 2022', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards:  Bhaskar Singh', styles1, styles2);
-
-console.log(
-    `%c शादी में जलूल जलूल आना होगा \n\n`,
-    'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
-)
